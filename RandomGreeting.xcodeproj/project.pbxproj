@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7BB6BEF19807DB400335BF2 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB6BEE19807DB400335BF2 /* StatsViewController.m */; };
 		C7CDBE2B197633D000F86E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CDBE2A197633D000F86E8C /* Foundation.framework */; };
 		C7CDBE2D197633D000F86E8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CDBE2C197633D000F86E8C /* CoreGraphics.framework */; };
 		C7CDBE2F197633D000F86E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CDBE2E197633D000F86E8C /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		C7CDBE4C197633D000F86E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CDBE2E197633D000F86E8C /* UIKit.framework */; };
 		C7CDBE54197633D000F86E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7CDBE52197633D000F86E8C /* InfoPlist.strings */; };
 		C7CDBE56197633D000F86E8C /* RandomGreetingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CDBE55197633D000F86E8C /* RandomGreetingTests.m */; };
+		C7CDBE61197634E400F86E8C /* Greetings.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CDBE60197634E400F86E8C /* Greetings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7BB6BED19807DB400335BF2 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
+		C7BB6BEE19807DB400335BF2 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
 		C7CDBE27197633D000F86E8C /* RandomGreeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomGreeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CDBE2A197633D000F86E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7CDBE2C197633D000F86E8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		C7CDBE51197633D000F86E8C /* RandomGreetingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomGreetingTests-Info.plist"; sourceTree = "<group>"; };
 		C7CDBE53197633D000F86E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7CDBE55197633D000F86E8C /* RandomGreetingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomGreetingTests.m; sourceTree = "<group>"; };
+		C7CDBE5F197634E400F86E8C /* Greetings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greetings.h; sourceTree = "<group>"; };
+		C7CDBE60197634E400F86E8C /* Greetings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greetings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,12 @@
 				C7CDBE39197633D000F86E8C /* RandomGreetingAppDelegate.h */,
 				C7CDBE3A197633D000F86E8C /* RandomGreetingAppDelegate.m */,
 				C7CDBE3C197633D000F86E8C /* Main.storyboard */,
+				C7BB6BED19807DB400335BF2 /* StatsViewController.h */,
+				C7BB6BEE19807DB400335BF2 /* StatsViewController.m */,
 				C7CDBE3F197633D000F86E8C /* RandomGreetingViewController.h */,
 				C7CDBE40197633D000F86E8C /* RandomGreetingViewController.m */,
+				C7CDBE5F197634E400F86E8C /* Greetings.h */,
+				C7CDBE60197634E400F86E8C /* Greetings.m */,
 				C7CDBE42197633D000F86E8C /* Images.xcassets */,
 				C7CDBE31197633D000F86E8C /* Supporting Files */,
 			);
@@ -251,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CDBE3B197633D000F86E8C /* RandomGreetingAppDelegate.m in Sources */,
+				C7BB6BEF19807DB400335BF2 /* StatsViewController.m in Sources */,
 				C7CDBE41197633D000F86E8C /* RandomGreetingViewController.m in Sources */,
+				C7CDBE61197634E400F86E8C /* Greetings.m in Sources */,
 				C7CDBE37197633D000F86E8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +469,7 @@
 				C7CDBE5B197633D000F86E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7CDBE5C197633D000F86E8C /* Build configuration list for PBXNativeTarget "RandomGreetingTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +478,7 @@
 				C7CDBE5E197633D000F86E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
