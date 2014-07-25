@@ -10,6 +10,8 @@
 
 @interface Greetings : NSObject
 
+@property (strong, nonatomic) NSMutableDictionary *greetings;
+
 - (NSString *)getRandomGreeting;
 
 @end

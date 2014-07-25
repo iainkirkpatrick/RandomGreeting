@@ -10,4 +10,6 @@
 
 @interface StatsViewController : UIViewController
 
+@property (strong, nonatomic) NSMutableDictionary *greetingsCount;
+
 @end
